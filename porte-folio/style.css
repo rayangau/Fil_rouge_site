@@ -1,0 +1,108 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url('route.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	color:white;
+	
+}
+
+
+.nav-link{
+
+
+color:#82BFBC !important;
+font-size: 15px;
+}
+
+.navbar-brand{
+margin-left: 2%;
+}
+
+.navbar-nav{
+width: 100%;
+justify-content: flex-end;
+margin-right: 10%;
+} 
+
+/*.logo{
+	position: absolute;
+	left:-16%;
+	top:-12%;
+	font-size: 10%
+}*/
+.rg{
+display: flex;flex-direction: column;
+margin-top: -2%;
+margin-left: 8%;
+color:#EFB135;
+font-size: 115%;
+} 
+.acc{
+position: relative;
+	left:65%;
+	top:10%;
+	color:#82BFBC !important ;
+}
+.real{
+position: relative;
+	left:70%;
+	top:10%;
+	background-color:red !important;
+}
+.form{
+position: relative;
+	left:75%;
+	top:10%;
+	color:#82BFBC;
+}
+.cont{
+position: relative;
+	left:80%;
+	top:10%;
+	color:#82BFBC;
+}
+
+.dev{
+display: flex;flex-direction: column;
+margin-top: 12%;
+margin-left: 28%;
+	color:#EFB135;
+}
+.int{
+display: flex;flex-direction: column;
+margin-top: 7%;
+margin-left: 13%;
+	color:white;
+	font-size: 113%;
+	
+}
+.nav{
+display: flex;flex-direction: column;
+margin-top: 1%;
+margin-left: 13%;
+font-size: 113%;
+	color:white;
+}
+.COLLABORONS{
+	display: flex;
+	flex-direction: column;
+	margin-top: 8%;
+	font-size: 180%;
+	color:#EFB135;
+	/*position: absolute;
+	left:10%;*/
+	
+	
+}
+@media screen (min-width: 992px){
+	body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url('route.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	}	
+
+}
